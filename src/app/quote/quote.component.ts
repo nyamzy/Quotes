@@ -9,9 +9,13 @@ import { Quote } from "../quote";
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    {id: 1, name:'The purpose of our lives is to be happy', author:'Dalai Lama'},
-    {id: 2, name:'Get busy living or get busy dying', author:'Stephen King'},
+    new Quote(1, 'The purpose of our lives is to be happy', 'Dalai Lama'),
+    new Quote(2, 'Get busy living or get busy dying', 'Stephen King'),
   ];
+
+  toggleDetails(index:any) {
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
 
   constructor() { }
 
