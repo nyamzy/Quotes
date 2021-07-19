@@ -10,4 +10,16 @@ body {
   font-family: Helvetica;
   color:floralwhite;
   background-image: url('src/assets/background.jpg');
+  padding:2rem;
 }
+ #author{
+   margin:1rem;
+ }
+
+ #name{
+   margin: 1rem;
+ }
+
+ #submitter{
+   margin:1rem;
+ }
