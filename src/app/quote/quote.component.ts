@@ -9,8 +9,8 @@ import { Quote } from "../quote";
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    new Quote(1, 'The purpose of our lives is to be happy', 'Dalai Lama'),
-    new Quote(2, 'Get busy living or get busy dying', 'Stephen King'),
+    new Quote(1, 'The purpose of our lives is to be happy', 'Dalai Lama', 'John Nyamweya'),
+    new Quote(2, 'Get busy living or get busy dying', 'Stephen King', 'John Nyamweya'),
   ];
 
   toggleDetails(index:any) {
