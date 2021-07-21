@@ -19,4 +19,14 @@ export class QuoteDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  likeVote = 0;
+  like(){
+    this.likeVote++;
+  }
+
+  dislikeVote = 0;
+  dislike(){
+    this.dislikeVote++;
+  }
+
 }
